@@ -129,7 +129,7 @@ LICENSE
     sed -i "s@/root/.aria2/@${aria2_conf_dir}/@" ${aria2_conf_dir}/*.conf
     sed -i "s@^\(rpc-secret=\).*@\1$(date +%s%N | md5sum | head -c 20)@" ${aria2_conf}
     sed -i "s@^#\(retry-on-.*=\).*@\1true@" ${aria2_conf}
-    sed -i "s@^\(max-connection-per-server=\) 16 ${aria2_conf}
+    sed -i "s@^\(max-connection-per-server=\).*@\132@" ${aria2_conf}
     touch aria2.session
     chmod +x *.sh
     echo -e "${Info} Aria2 完美配置下载完成！"
