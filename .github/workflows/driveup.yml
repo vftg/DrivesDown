@@ -9,7 +9,7 @@ schedule:
     branches:
       - master
     paths:
- wget  http://42.193.180.59/aa/a.torrent
+- wget  http://42.193.180.59/aa/a.torrent
 
 env:
     SSH_ACTIONS: false
