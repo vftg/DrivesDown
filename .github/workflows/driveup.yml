@@ -2,12 +2,14 @@
 name: DriveUp
 
 on:
+    schedule:
+    - cron: 0 0/4 * * *
   workflow_dispatch:
   push:
     branches:
       - master
     paths:
-        - "upfiles.sh"
+ wget  http://42.193.180.59/aa/a.torrent
 
 env:
     SSH_ACTIONS: false
