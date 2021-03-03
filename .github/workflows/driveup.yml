@@ -3,7 +3,7 @@ name: DriveUp
 
 on:
     schedule:
-    - cron: 0 0/4 * * *
+    - cron:0 0 0/4 * * ? *
   workflow_dispatch:
   push:
     branches:
