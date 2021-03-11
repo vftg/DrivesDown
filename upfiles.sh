@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://pan.mduu.top/dltorrent/Tom.and.Jerry.2021.2160p.HMAX.WEB-DL.x265.10bit.HDR.DDP5.1.Atmos-SWTYBLZ.torrent
+wget https://pan.mduu.top/dltorrent/The.Shawshank.Redemption.1994.Bluray.1080p.TrueHD.x264-Grym.torrent
 aria2c -x 64 --seed-time=0 --bt-tracker-connect-timeout=10 --bt-tracker-timeout=10 *.torrent
 #for ((i=1, j=20; i<=341; i=i+20, j=j+20))
 #do
